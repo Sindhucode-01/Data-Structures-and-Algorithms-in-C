@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 typedef struct
 {
     float real;
@@ -38,7 +37,6 @@ int main()
     return 0;
 }
 
-// Input function
 Complex input()
 {
     Complex c;
@@ -52,7 +50,6 @@ Complex input()
     return c;
 }
 
-// Addition
 Complex Add(Complex a, Complex b)
 {
     Complex result;
@@ -61,7 +58,6 @@ Complex Add(Complex a, Complex b)
     return result;
 }
 
-// Subtraction
 Complex Sub(Complex a, Complex b)
 {
     Complex result;
@@ -70,7 +66,6 @@ Complex Sub(Complex a, Complex b)
     return result;
 }
 
-// Multiplication
 Complex Mul(Complex a, Complex b)
 {
     Complex result;
@@ -79,7 +74,6 @@ Complex Mul(Complex a, Complex b)
     return result;
 }
 
-// Display function
 void display(Complex c)
 {
     if(c.imag >= 0)
