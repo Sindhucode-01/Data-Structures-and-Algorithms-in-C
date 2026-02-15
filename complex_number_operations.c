@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-// Define structure using typedef
+
 typedef struct
 {
     float real;
     float imag;
 } Complex;
 
-// Function declarations
 Complex input();
 Complex Add(Complex a, Complex b);
 Complex Sub(Complex a, Complex b);
